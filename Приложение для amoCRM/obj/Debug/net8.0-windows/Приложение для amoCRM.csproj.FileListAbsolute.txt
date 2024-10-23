@@ -1,0 +1,21 @@
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Приложение для amoCRM.exe
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Приложение для amoCRM.deps.json
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Приложение для amoCRM.runtimeconfig.json
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Приложение для amoCRM.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Приложение для amoCRM.pdb
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение_для_amoCRM.Form1.resources
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.csproj.GenerateResource.cache
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.GeneratedMSBuildEditorConfig.editorconfig
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.AssemblyInfoInputs.cache
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.AssemblyInfo.cs
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.csproj.CoreCompileInputs.cache
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\refint\Приложение для amoCRM.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.pdb
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.genruntimeconfig.cache
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\ref\Приложение для amoCRM.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.csproj.AssemblyReference.cache
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Telegram.Bot.dll
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\________.A7D2C8BA.Up2Date
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение_для_amoCRM.Form2.resources
