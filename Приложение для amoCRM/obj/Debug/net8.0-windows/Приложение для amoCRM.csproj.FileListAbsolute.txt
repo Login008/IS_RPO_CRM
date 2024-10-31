@@ -19,3 +19,4 @@ D:\ИС РПО\Приложение для amoCRM\Приложение для am
 D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\bin\Debug\net8.0-windows\Telegram.Bot.dll
 D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\________.A7D2C8BA.Up2Date
 D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение_для_amoCRM.Form2.resources
+D:\ИС РПО\Приложение для amoCRM\Приложение для amoCRM\obj\Debug\net8.0-windows\Приложение для amoCRM.sourcelink.json

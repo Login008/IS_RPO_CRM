@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button5 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button1 = new Button();
+            button5 = new RoundedButton();
+            button2 = new RoundedButton();
+            button3 = new RoundedButton();
+            button1 = new RoundedButton();
             panel4 = new Panel();
             listBox1 = new ListBox();
             panel6 = new Panel();
@@ -40,7 +40,7 @@
             label1 = new Label();
             panel3 = new Panel();
             listBox2 = new ListBox();
-            button8 = new Button();
+            button8 = new RoundedButton();
             panel7 = new Panel();
             comboBox1 = new ComboBox();
             button9 = new Button();
@@ -49,22 +49,22 @@
             label6 = new Label();
             label5 = new Label();
             monthCalendar1 = new MonthCalendar();
-            button10 = new Button();
+            button10 = new RoundedButton();
             panel8 = new Panel();
-            button14 = new Button();
-            button13 = new Button();
-            button11 = new Button();
+            button14 = new RoundedButton();
+            button13 = new RoundedButton();
+            button11 = new RoundedButton();
             panel9 = new Panel();
-            button12 = new Button();
+            button12 = new RoundedButton();
             textBox6 = new TextBox();
             textBox5 = new TextBox();
             textBox4 = new TextBox();
             textBox3 = new TextBox();
             textBox2 = new TextBox();
             panel5 = new Panel();
-            button7 = new Button();
-            button6 = new Button();
-            button4 = new Button();
+            button7 = new RoundedButton();
+            button6 = new RoundedButton();
+            button4 = new RoundedButton();
             panel4.SuspendLayout();
             panel6.SuspendLayout();
             panel2.SuspendLayout();
@@ -77,42 +77,46 @@
             // 
             // button5
             // 
+            button5.BackColor = SystemColors.ButtonFace;
             button5.Location = new Point(3, 409);
             button5.Name = "button5";
             button5.Size = new Size(161, 107);
             button5.TabIndex = 4;
             button5.Text = "Сделки";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // button2
             // 
+            button2.BackColor = SystemColors.ButtonFace;
             button2.Location = new Point(3, 101);
             button2.Name = "button2";
             button2.Size = new Size(161, 89);
             button2.TabIndex = 1;
             button2.Text = "Задачи";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // button3
             // 
+            button3.BackColor = SystemColors.ButtonFace;
             button3.Location = new Point(3, 198);
             button3.Name = "button3";
             button3.Size = new Size(161, 101);
             button3.TabIndex = 2;
             button3.Text = "Контакты/компании";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button1
             // 
+            button1.BackColor = SystemColors.ButtonFace;
             button1.Location = new Point(3, 2);
             button1.Name = "button1";
             button1.Size = new Size(161, 93);
             button1.TabIndex = 0;
             button1.Text = "Профиль";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // panel4
@@ -227,9 +231,9 @@
             // button9
             // 
             button9.Font = new Font("Segoe UI", 6F);
-            button9.Location = new Point(135, 37);
+            button9.Location = new Point(133, 37);
             button9.Name = "button9";
-            button9.Size = new Size(194, 20);
+            button9.Size = new Size(196, 20);
             button9.TabIndex = 4;
             button9.Text = "Выбрать дату";
             button9.UseVisualStyleBackColor = true;
@@ -409,37 +413,38 @@
             // 
             // button7
             // 
-            button7.Location = new Point(214, 35);
+            button7.Location = new Point(199, 28);
             button7.Name = "button7";
-            button7.Size = new Size(125, 29);
+            button7.Size = new Size(151, 42);
             button7.TabIndex = 1;
             button7.Text = "Тёмная тема";
             button7.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Location = new Point(23, 35);
+            button6.Location = new Point(23, 28);
             button6.Name = "button6";
-            button6.Size = new Size(125, 29);
+            button6.Size = new Size(146, 42);
             button6.TabIndex = 0;
             button6.Text = "Светлая тема";
             button6.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
+            button4.BackColor = SystemColors.ButtonFace;
             button4.Location = new Point(3, 305);
             button4.Name = "button4";
             button4.Size = new Size(161, 98);
             button4.TabIndex = 11;
             button4.Text = "Настройка/цвет";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.WindowFrame;
+            BackColor = Color.Gray;
             ClientSize = new Size(1011, 660);
             Controls.Add(button11);
             Controls.Add(panel9);
@@ -456,6 +461,7 @@
             Controls.Add(panel2);
             Name = "Form1";
             Text = "CRM";
+            Load += Form1_Load;
             panel4.ResumeLayout(false);
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
@@ -472,17 +478,17 @@
         }
 
         #endregion
-        private Button button5;
-        private Button button3;
-        private Button button2;
-        private Button button1;
+        private RoundedButton button5;
+        private RoundedButton button3;
+        private RoundedButton button2;
+        private RoundedButton button1;
         private Panel panel2;
         private Panel panel3;
         private Panel panel6;
         private Panel panel4;
         private Label label1;
         private Label label4;
-        private Button button8;
+        private RoundedButton button8;
         private Panel panel7;
         private Label label7;
         private Label label6;
@@ -491,23 +497,23 @@
         private MonthCalendar monthCalendar1;
         private ComboBox comboBox1;
         private Button button9;
-        private Button button10;
+        private RoundedButton button10;
         private Panel panel8;
         private Panel panel5;
-        private Button button7;
-        private Button button6;
-        private Button button4;
+        private RoundedButton button7;
+        private RoundedButton button6;
+        private RoundedButton button4;
         private ListBox listBox1;
-        private Button button11;
+        private RoundedButton button11;
         private Panel panel9;
         private TextBox textBox6;
         private TextBox textBox5;
         private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
-        private Button button12;
+        private RoundedButton button12;
         private ListBox listBox2;
-        private Button button13;
-        private Button button14;
+        private RoundedButton button13;
+        private RoundedButton button14;
     }
 }

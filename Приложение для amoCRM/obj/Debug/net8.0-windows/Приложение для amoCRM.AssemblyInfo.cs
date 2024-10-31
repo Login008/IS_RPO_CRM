@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Приложение для amoCRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cc23c6418e0ea06aae85bc548188c8824f26ca8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Приложение для amoCRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Приложение для amoCRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

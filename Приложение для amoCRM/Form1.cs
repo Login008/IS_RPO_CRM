@@ -308,9 +308,9 @@ namespace Приложение_для_amoCRM
 
         private async void button13_Click(object sender, EventArgs e)
         {
-            sendNot("Задачи на сегодня:\n", 1);
-            sendNot("Задачи на завтра:\n", 2);
-            sendNot("Задачи на после завтра:\n", 3);
+            sendNot("Задачи на сегодня:\n", 0);
+            sendNot("Задачи на завтра:\n", 1);
+            sendNot("Задачи на после завтра:\n", 2);
             MessageBox.Show("Уведомление отправлено");
         }
 
@@ -318,6 +318,11 @@ namespace Приложение_для_amoCRM
         {
             Form2 f2 = new Form2();
             f2.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
